@@ -1,85 +1,102 @@
-html, body {
+html,
+body {
     font-family: Arial, sans-serif;
     /* height: 100%; */
     margin: 0;
     padding: 0;
     font-size: 20px;
     background-color: #efefef;
-  }
-  
-  header {
+}
+
+header {
     /* background-color: #333; */
     background-color: #27285C;
     /* color: ; */
     color: #fff;
- 
     padding: 20px;
-  }
-  
-  header h1 {
-    margin: 0;
+}
 
-  }
-  
-  nav a {
+header h1 {
+    margin: 0;
+}
+
+nav a {
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
-  }
-  
-  nav a.active {
+}
+
+nav a.active {
     font-weight: bold;
-  }
-  
-  main {
+}
+
+main {
     padding: 30px;
-  }
-  
-  section {
+}
+
+section {
     margin-bottom: 20px;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: #333;
-  }
-  
-  footer {
+}
+
+footer {
     /* background-color: #333; */
     color: #333;
     padding: 10px;
     padding-bottom: 0;
     text-align: center;
     /* margin-top: 100px; */
-  }
-  
-  .main{
-    margin:0 auto
-  }
-
-.container{
-  /* width: px; */
-  margin-left: auto;
-  margin-right: auto;
-}
-.disaster_p{
-  margin-bottom: 60px;
 }
 
-.career{
-  margin:4px;
-  font-size:16px;
+.main {
+    margin: 0 auto
 }
-.name{
-  margin:4px;
-font-size:24px;
 
+.container {
+    /* width: px; */
+    margin-left: auto;
+    margin-right: auto;
 }
-.greeting{
-  margin:4px;
+
+.disaster_p {
+    margin-bottom: 60px;
 }
+
+.career {
+    margin: 4px;
+    font-size: 16px;
+}
+
+.name {
+    margin: 4px;
+    font-size: 24px;
+}
+
+.greeting {
+    margin: 4px;
+}
+
+
 /* .about-me{
 
 } */
-.skill-icons{
-  margin-top: 100px;
+
+.skill-icons {
+    margin-top: 60px;
+}
+
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+footer {
+    font-size: 14px;
 }
